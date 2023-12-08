@@ -1,0 +1,39 @@
+$bg:rgba(16,16,16);
+
+.footer{
+    height: 400px;
+    background-color:$bg ;
+    padding-top: 7rem;
+    color: #999;
+    font-size: 1rem;
+    .line{
+        height: 8px;
+        background-color: #333;
+    }
+    .footerDiv{
+        margin-top: 5rem ;
+        margin-left: 10rem ;
+        h4{
+            margin-top:3rem ;
+        }
+    }
+    .footerlinks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 2rem;
+
+        a{
+            text-decoration: none;
+            color: #999;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }       
+    }
+   
+    span{
+        font-size: 1.3rem;
+    }
+}

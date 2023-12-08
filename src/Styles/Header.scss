@@ -1,0 +1,42 @@
+// variables
+$bg:rgba(16,16,16);
+
+.header{
+    height: 70px;
+    // background-color: #000;
+    background-color: $bg;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    img{
+        height: 125%;
+    }
+    div{
+        width: 100%;
+        margin-left: 2vmax;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            margin: 0 2rem;
+            font-weight: 400;
+            transition: all 0.3s;
+            
+            &:hover{
+                color: #777;
+            }
+        }
+    }
+    svg{
+        color: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            color: #777;
+            transform: translateY(-1px);
+        }
+    }
+}
